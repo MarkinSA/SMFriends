@@ -23,6 +23,14 @@
 		5384F2531C2C6FD7001821EB /* status_offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 5384F2511C2C6FD7001821EB /* status_offline.png */; };
 		5384F2541C2C6FD7001821EB /* status_online.png in Resources */ = {isa = PBXBuildFile; fileRef = 5384F2521C2C6FD7001821EB /* status_online.png */; };
 		58F99E2CDDCB871D53CCF63D /* libPods-SMFriends.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35701374ACCAFD1ADA0A4596 /* libPods-SMFriends.a */; };
+		6AE9B5A21C2C934100BCFFB9 /* SMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9B5A11C2C934100BCFFB9 /* SMNetworkManager.m */; settings = {ASSET_TAGS = (); }; };
+		6AE9B5A61C2C935900BCFFB9 /* NSDictionary+SMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9B5A41C2C935900BCFFB9 /* NSDictionary+SMHelper.m */; settings = {ASSET_TAGS = (); }; };
+		6AE9B5B01C2C937B00BCFFB9 /* SMCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9B5A91C2C937B00BCFFB9 /* SMCity.m */; settings = {ASSET_TAGS = (); }; };
+		6AE9B5B11C2C937B00BCFFB9 /* SMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9B5AA1C2C937B00BCFFB9 /* SMUser.m */; settings = {ASSET_TAGS = (); }; };
+		6AE9B5B21C2C937B00BCFFB9 /* SMUniversity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9B5AC1C2C937B00BCFFB9 /* SMUniversity.m */; settings = {ASSET_TAGS = (); }; };
+		6AE9B5B31C2C937B00BCFFB9 /* SMLastSeen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9B5AD1C2C937B00BCFFB9 /* SMLastSeen.m */; settings = {ASSET_TAGS = (); }; };
+		6AE9B5B91C2C93B800BCFFB9 /* SMUsersLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9B5B61C2C93B800BCFFB9 /* SMUsersLoader.m */; settings = {ASSET_TAGS = (); }; };
+		6AE9B5BA1C2C93B800BCFFB9 /* SMCityLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9B5B71C2C93B800BCFFB9 /* SMCityLoader.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +64,23 @@
 		5384F24F1C2C6482001821EB /* SMUsersTableViewTryAgainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUsersTableViewTryAgainCell.m; sourceTree = "<group>"; };
 		5384F2511C2C6FD7001821EB /* status_offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_offline.png; sourceTree = "<group>"; };
 		5384F2521C2C6FD7001821EB /* status_online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_online.png; sourceTree = "<group>"; };
+		6AE9B59F1C2C934100BCFFB9 /* SMRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMRequestDelegate.h; path = DataProvider/SMRequestDelegate.h; sourceTree = "<group>"; };
+		6AE9B5A01C2C934100BCFFB9 /* SMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMNetworkManager.h; path = DataProvider/SMNetworkManager.h; sourceTree = "<group>"; };
+		6AE9B5A11C2C934100BCFFB9 /* SMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMNetworkManager.m; path = DataProvider/SMNetworkManager.m; sourceTree = "<group>"; };
+		6AE9B5A41C2C935900BCFFB9 /* NSDictionary+SMHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SMHelper.m"; path = "DataProvider/Category/NSDictionary+SMHelper.m"; sourceTree = "<group>"; };
+		6AE9B5A51C2C935900BCFFB9 /* NSDictionary+SMHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SMHelper.h"; path = "DataProvider/Category/NSDictionary+SMHelper.h"; sourceTree = "<group>"; };
+		6AE9B5A81C2C937B00BCFFB9 /* SMCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMCity.h; path = DataProvider/Model/SMCity.h; sourceTree = "<group>"; };
+		6AE9B5A91C2C937B00BCFFB9 /* SMCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMCity.m; path = DataProvider/Model/SMCity.m; sourceTree = "<group>"; };
+		6AE9B5AA1C2C937B00BCFFB9 /* SMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMUser.m; path = DataProvider/Model/SMUser.m; sourceTree = "<group>"; };
+		6AE9B5AB1C2C937B00BCFFB9 /* SMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMUser.h; path = DataProvider/Model/SMUser.h; sourceTree = "<group>"; };
+		6AE9B5AC1C2C937B00BCFFB9 /* SMUniversity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMUniversity.m; path = DataProvider/Model/SMUniversity.m; sourceTree = "<group>"; };
+		6AE9B5AD1C2C937B00BCFFB9 /* SMLastSeen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMLastSeen.m; path = DataProvider/Model/SMLastSeen.m; sourceTree = "<group>"; };
+		6AE9B5AE1C2C937B00BCFFB9 /* SMLastSeen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMLastSeen.h; path = DataProvider/Model/SMLastSeen.h; sourceTree = "<group>"; };
+		6AE9B5AF1C2C937B00BCFFB9 /* SMUniversity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMUniversity.h; path = DataProvider/Model/SMUniversity.h; sourceTree = "<group>"; };
+		6AE9B5B51C2C93B800BCFFB9 /* SMCityLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMCityLoader.h; path = DataProvider/Loaders/SMCityLoader.h; sourceTree = "<group>"; };
+		6AE9B5B61C2C93B800BCFFB9 /* SMUsersLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMUsersLoader.m; path = DataProvider/Loaders/SMUsersLoader.m; sourceTree = "<group>"; };
+		6AE9B5B71C2C93B800BCFFB9 /* SMCityLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMCityLoader.m; path = DataProvider/Loaders/SMCityLoader.m; sourceTree = "<group>"; };
+		6AE9B5B81C2C93B800BCFFB9 /* SMUsersLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMUsersLoader.h; path = DataProvider/Loaders/SMUsersLoader.h; sourceTree = "<group>"; };
 		8AEE2E106B33805FFA1314BA /* Pods-SMFriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMFriends.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMFriends/Pods-SMFriends.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +117,7 @@
 		5384F21B1C2C1DDF001821EB /* SMFriends */ = {
 			isa = PBXGroup;
 			children = (
+				6A88D8941C2C917F00A53B0F /* DataProvider */,
 				5384F2551C2C6FDB001821EB /* Icons */,
 				5384F2461C2C418A001821EB /* SMCategories */,
 				5384F24A1C2C608B001821EB /* SMCustomCells */,
@@ -153,6 +179,54 @@
 				5384F2521C2C6FD7001821EB /* status_online.png */,
 			);
 			name = Icons;
+			sourceTree = "<group>";
+		};
+		6A88D8941C2C917F00A53B0F /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				6AE9B5A31C2C934500BCFFB9 /* Category */,
+				6AE9B5A71C2C936C00BCFFB9 /* Model */,
+				6AE9B5B41C2C939700BCFFB9 /* DataLoaders */,
+				6AE9B59F1C2C934100BCFFB9 /* SMRequestDelegate.h */,
+				6AE9B5A01C2C934100BCFFB9 /* SMNetworkManager.h */,
+				6AE9B5A11C2C934100BCFFB9 /* SMNetworkManager.m */,
+			);
+			name = DataProvider;
+			sourceTree = "<group>";
+		};
+		6AE9B5A31C2C934500BCFFB9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6AE9B5A51C2C935900BCFFB9 /* NSDictionary+SMHelper.h */,
+				6AE9B5A41C2C935900BCFFB9 /* NSDictionary+SMHelper.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		6AE9B5A71C2C936C00BCFFB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AE9B5AB1C2C937B00BCFFB9 /* SMUser.h */,
+				6AE9B5AA1C2C937B00BCFFB9 /* SMUser.m */,
+				6AE9B5A81C2C937B00BCFFB9 /* SMCity.h */,
+				6AE9B5A91C2C937B00BCFFB9 /* SMCity.m */,
+				6AE9B5AE1C2C937B00BCFFB9 /* SMLastSeen.h */,
+				6AE9B5AD1C2C937B00BCFFB9 /* SMLastSeen.m */,
+				6AE9B5AF1C2C937B00BCFFB9 /* SMUniversity.h */,
+				6AE9B5AC1C2C937B00BCFFB9 /* SMUniversity.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6AE9B5B41C2C939700BCFFB9 /* DataLoaders */ = {
+			isa = PBXGroup;
+			children = (
+				6AE9B5B51C2C93B800BCFFB9 /* SMCityLoader.h */,
+				6AE9B5B71C2C93B800BCFFB9 /* SMCityLoader.m */,
+				6AE9B5B81C2C93B800BCFFB9 /* SMUsersLoader.h */,
+				6AE9B5B61C2C93B800BCFFB9 /* SMUsersLoader.m */,
+			);
+			name = DataLoaders;
 			sourceTree = "<group>";
 		};
 		7101FDA95FD528EE107C2ACC /* Pods */ = {
@@ -299,13 +373,21 @@
 				5384F2211C2C1DDF001821EB /* AppDelegate.m in Sources */,
 				5384F23E1C2C35A0001821EB /* SMUsersTableViewDatasource.m in Sources */,
 				5384F2351C2C1E44001821EB /* SMUsersViewController.m in Sources */,
+				6AE9B5B11C2C937B00BCFFB9 /* SMUser.m in Sources */,
+				6AE9B5B01C2C937B00BCFFB9 /* SMCity.m in Sources */,
 				5384F21E1C2C1DDF001821EB /* main.m in Sources */,
+				6AE9B5BA1C2C93B800BCFFB9 /* SMCityLoader.m in Sources */,
 				5384F24D1C2C6166001821EB /* SMUsersTableViewActivityIndicatorCell.m in Sources */,
 				5384F23B1C2C224C001821EB /* SMUsersTableView.m in Sources */,
 				5384F2451C2C4149001821EB /* UIView+SMViews.m in Sources */,
 				5384F2421C2C3F43001821EB /* UIColor+SMColors.m in Sources */,
+				6AE9B5B21C2C937B00BCFFB9 /* SMUniversity.m in Sources */,
 				5384F2381C2C1EE0001821EB /* SMNavigationController.m in Sources */,
+				6AE9B5B31C2C937B00BCFFB9 /* SMLastSeen.m in Sources */,
+				6AE9B5A21C2C934100BCFFB9 /* SMNetworkManager.m in Sources */,
+				6AE9B5A61C2C935900BCFFB9 /* NSDictionary+SMHelper.m in Sources */,
 				5384F2501C2C6482001821EB /* SMUsersTableViewTryAgainCell.m in Sources */,
+				6AE9B5B91C2C93B800BCFFB9 /* SMUsersLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

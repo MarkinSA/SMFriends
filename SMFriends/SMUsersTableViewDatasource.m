@@ -11,7 +11,11 @@
 #import "SMUsersTableViewActivityIndicatorCell.h"
 #import "SMUsersTableViewTryAgainCell.h"
 
+#import "SMNetworkManager.h"
+
 @interface SMUsersTableViewDatasource ()
+
+@property (nonatomic, strong) SMNetworkManager *networkManager;
 
 @end
 
@@ -23,9 +27,24 @@ NSString *const dataCellIdentifier = @"dataCellIdentifier";
 	self = [super init];
 	
 	if (self) {
-		
+
+        // создали нетворк менеджер
+        _networkManager = [SMNetworkManager new];
+
 		[tableView registerClass:[SMUsersTableViewDataCell class] forCellReuseIdentifier:dataCellIdentifier];
 
+        [[_networkManager userLoader] loadUsersWithSuccess:^(NSArray *usersArray) {
+
+            NSLog(@"new users downloaded successful");
+            for (SMUser *user in usersArray) {
+                NSLog(@"%@", user);
+            }
+
+        } failure:^(NSError *error) {
+
+            NSLog(@"%@", error);
+
+        }];
 	}
 	return self;
 }
