@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SMUsersTableView.h
 //  SMFriends
 //
 //  Created by Сергей Маркин on 24.12.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SMUsersTableView : UITableView
 
 @end
-

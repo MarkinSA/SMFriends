@@ -1,0 +1,19 @@
+//
+//  SMHeader.pch
+//  SMFriends
+//
+//  Created by Сергей Маркин on 24.12.15.
+//  Copyright © 2015 Сергей Маркин. All rights reserved.
+//
+
+#ifndef SMHeader_pch
+#define SMHeader_pch
+
+#import "Masonry.h"
+#import "UIColor+SMColors.h"
+#import "UIView+SMViews.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SMHeader_pch */

@@ -9,23 +9,54 @@
 /* Begin PBXBuildFile section */
 		5384F21E1C2C1DDF001821EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F21D1C2C1DDF001821EB /* main.m */; };
 		5384F2211C2C1DDF001821EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F2201C2C1DDF001821EB /* AppDelegate.m */; };
-		5384F2241C2C1DDF001821EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F2231C2C1DDF001821EB /* ViewController.m */; };
-		5384F2271C2C1DDF001821EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5384F2251C2C1DDF001821EB /* Main.storyboard */; };
 		5384F2291C2C1DDF001821EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5384F2281C2C1DDF001821EB /* Assets.xcassets */; };
 		5384F22C1C2C1DDF001821EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5384F22A1C2C1DDF001821EB /* LaunchScreen.storyboard */; };
+		5384F2351C2C1E44001821EB /* SMUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F2341C2C1E44001821EB /* SMUsersViewController.m */; };
+		5384F2381C2C1EE0001821EB /* SMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F2371C2C1EE0001821EB /* SMNavigationController.m */; };
+		5384F23B1C2C224C001821EB /* SMUsersTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F23A1C2C224C001821EB /* SMUsersTableView.m */; };
+		5384F23E1C2C35A0001821EB /* SMUsersTableViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F23D1C2C35A0001821EB /* SMUsersTableViewDatasource.m */; };
+		5384F2421C2C3F43001821EB /* UIColor+SMColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F2411C2C3F43001821EB /* UIColor+SMColors.m */; };
+		5384F2451C2C4149001821EB /* UIView+SMViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F2441C2C4149001821EB /* UIView+SMViews.m */; };
+		5384F2491C2C424C001821EB /* SMUsersTableViewDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F2481C2C424C001821EB /* SMUsersTableViewDataCell.m */; };
+		5384F24D1C2C6166001821EB /* SMUsersTableViewActivityIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F24C1C2C6166001821EB /* SMUsersTableViewActivityIndicatorCell.m */; };
+		5384F2501C2C6482001821EB /* SMUsersTableViewTryAgainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5384F24F1C2C6482001821EB /* SMUsersTableViewTryAgainCell.m */; };
+		5384F2531C2C6FD7001821EB /* status_offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 5384F2511C2C6FD7001821EB /* status_offline.png */; };
+		5384F2541C2C6FD7001821EB /* status_online.png in Resources */ = {isa = PBXBuildFile; fileRef = 5384F2521C2C6FD7001821EB /* status_online.png */; };
+		58F99E2CDDCB871D53CCF63D /* libPods-SMFriends.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35701374ACCAFD1ADA0A4596 /* libPods-SMFriends.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		221BD42E9FD3B665A8A7F081 /* Pods-SMFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMFriends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMFriends/Pods-SMFriends.debug.xcconfig"; sourceTree = "<group>"; };
+		35701374ACCAFD1ADA0A4596 /* libPods-SMFriends.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SMFriends.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5384F2191C2C1DDF001821EB /* SMFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5384F21D1C2C1DDF001821EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5384F21F1C2C1DDF001821EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5384F2201C2C1DDF001821EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5384F2221C2C1DDF001821EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5384F2231C2C1DDF001821EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5384F2261C2C1DDF001821EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5384F2281C2C1DDF001821EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5384F22B1C2C1DDF001821EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5384F22D1C2C1DDF001821EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5384F2331C2C1E44001821EB /* SMUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUsersViewController.h; sourceTree = "<group>"; };
+		5384F2341C2C1E44001821EB /* SMUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUsersViewController.m; sourceTree = "<group>"; };
+		5384F2361C2C1EE0001821EB /* SMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNavigationController.h; sourceTree = "<group>"; };
+		5384F2371C2C1EE0001821EB /* SMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMNavigationController.m; sourceTree = "<group>"; };
+		5384F2391C2C224C001821EB /* SMUsersTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUsersTableView.h; sourceTree = "<group>"; };
+		5384F23A1C2C224C001821EB /* SMUsersTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUsersTableView.m; sourceTree = "<group>"; };
+		5384F23C1C2C35A0001821EB /* SMUsersTableViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUsersTableViewDatasource.h; sourceTree = "<group>"; };
+		5384F23D1C2C35A0001821EB /* SMUsersTableViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUsersTableViewDatasource.m; sourceTree = "<group>"; };
+		5384F23F1C2C3D61001821EB /* SMHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHeader.pch; sourceTree = "<group>"; };
+		5384F2401C2C3F43001821EB /* UIColor+SMColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SMColors.h"; sourceTree = "<group>"; };
+		5384F2411C2C3F43001821EB /* UIColor+SMColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SMColors.m"; sourceTree = "<group>"; };
+		5384F2431C2C4149001821EB /* UIView+SMViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SMViews.h"; sourceTree = "<group>"; };
+		5384F2441C2C4149001821EB /* UIView+SMViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SMViews.m"; sourceTree = "<group>"; };
+		5384F2471C2C424C001821EB /* SMUsersTableViewDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUsersTableViewDataCell.h; sourceTree = "<group>"; };
+		5384F2481C2C424C001821EB /* SMUsersTableViewDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUsersTableViewDataCell.m; sourceTree = "<group>"; };
+		5384F24B1C2C6166001821EB /* SMUsersTableViewActivityIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUsersTableViewActivityIndicatorCell.h; sourceTree = "<group>"; };
+		5384F24C1C2C6166001821EB /* SMUsersTableViewActivityIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUsersTableViewActivityIndicatorCell.m; sourceTree = "<group>"; };
+		5384F24E1C2C6482001821EB /* SMUsersTableViewTryAgainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUsersTableViewTryAgainCell.h; sourceTree = "<group>"; };
+		5384F24F1C2C6482001821EB /* SMUsersTableViewTryAgainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUsersTableViewTryAgainCell.m; sourceTree = "<group>"; };
+		5384F2511C2C6FD7001821EB /* status_offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_offline.png; sourceTree = "<group>"; };
+		5384F2521C2C6FD7001821EB /* status_online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_online.png; sourceTree = "<group>"; };
+		8AEE2E106B33805FFA1314BA /* Pods-SMFriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMFriends.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMFriends/Pods-SMFriends.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58F99E2CDDCB871D53CCF63D /* libPods-SMFriends.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +76,8 @@
 			children = (
 				5384F21B1C2C1DDF001821EB /* SMFriends */,
 				5384F21A1C2C1DDF001821EB /* Products */,
+				7101FDA95FD528EE107C2ACC /* Pods */,
+				E51E2070898AB1A8BD115B30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +92,19 @@
 		5384F21B1C2C1DDF001821EB /* SMFriends */ = {
 			isa = PBXGroup;
 			children = (
+				5384F2551C2C6FDB001821EB /* Icons */,
+				5384F2461C2C418A001821EB /* SMCategories */,
+				5384F24A1C2C608B001821EB /* SMCustomCells */,
 				5384F21F1C2C1DDF001821EB /* AppDelegate.h */,
 				5384F2201C2C1DDF001821EB /* AppDelegate.m */,
-				5384F2221C2C1DDF001821EB /* ViewController.h */,
-				5384F2231C2C1DDF001821EB /* ViewController.m */,
-				5384F2251C2C1DDF001821EB /* Main.storyboard */,
+				5384F2331C2C1E44001821EB /* SMUsersViewController.h */,
+				5384F2341C2C1E44001821EB /* SMUsersViewController.m */,
+				5384F2361C2C1EE0001821EB /* SMNavigationController.h */,
+				5384F2371C2C1EE0001821EB /* SMNavigationController.m */,
+				5384F2391C2C224C001821EB /* SMUsersTableView.h */,
+				5384F23A1C2C224C001821EB /* SMUsersTableView.m */,
+				5384F23C1C2C35A0001821EB /* SMUsersTableViewDatasource.h */,
+				5384F23D1C2C35A0001821EB /* SMUsersTableViewDatasource.m */,
 				5384F2281C2C1DDF001821EB /* Assets.xcassets */,
 				5384F22A1C2C1DDF001821EB /* LaunchScreen.storyboard */,
 				5384F22D1C2C1DDF001821EB /* Info.plist */,
@@ -75,8 +117,59 @@
 			isa = PBXGroup;
 			children = (
 				5384F21D1C2C1DDF001821EB /* main.m */,
+				5384F23F1C2C3D61001821EB /* SMHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5384F2461C2C418A001821EB /* SMCategories */ = {
+			isa = PBXGroup;
+			children = (
+				5384F2401C2C3F43001821EB /* UIColor+SMColors.h */,
+				5384F2411C2C3F43001821EB /* UIColor+SMColors.m */,
+				5384F2431C2C4149001821EB /* UIView+SMViews.h */,
+				5384F2441C2C4149001821EB /* UIView+SMViews.m */,
+			);
+			name = SMCategories;
+			sourceTree = "<group>";
+		};
+		5384F24A1C2C608B001821EB /* SMCustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				5384F2471C2C424C001821EB /* SMUsersTableViewDataCell.h */,
+				5384F2481C2C424C001821EB /* SMUsersTableViewDataCell.m */,
+				5384F24B1C2C6166001821EB /* SMUsersTableViewActivityIndicatorCell.h */,
+				5384F24C1C2C6166001821EB /* SMUsersTableViewActivityIndicatorCell.m */,
+				5384F24E1C2C6482001821EB /* SMUsersTableViewTryAgainCell.h */,
+				5384F24F1C2C6482001821EB /* SMUsersTableViewTryAgainCell.m */,
+			);
+			name = SMCustomCells;
+			sourceTree = "<group>";
+		};
+		5384F2551C2C6FDB001821EB /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				5384F2511C2C6FD7001821EB /* status_offline.png */,
+				5384F2521C2C6FD7001821EB /* status_online.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		7101FDA95FD528EE107C2ACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221BD42E9FD3B665A8A7F081 /* Pods-SMFriends.debug.xcconfig */,
+				8AEE2E106B33805FFA1314BA /* Pods-SMFriends.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E51E2070898AB1A8BD115B30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35701374ACCAFD1ADA0A4596 /* libPods-SMFriends.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5384F2301C2C1DDF001821EB /* Build configuration list for PBXNativeTarget "SMFriends" */;
 			buildPhases = (
+				2CFDDC269EA9D0012A218C12 /* Check Pods Manifest.lock */,
 				5384F2151C2C1DDF001821EB /* Sources */,
 				5384F2161C2C1DDF001821EB /* Frameworks */,
 				5384F2171C2C1DDF001821EB /* Resources */,
+				CC4B13058228C88FD976378A /* Embed Pods Frameworks */,
+				9EE7E83E4FB5FAE68EA31DE5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,36 +233,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5384F2541C2C6FD7001821EB /* status_online.png in Resources */,
+				5384F2531C2C6FD7001821EB /* status_offline.png in Resources */,
 				5384F22C1C2C1DDF001821EB /* LaunchScreen.storyboard in Resources */,
 				5384F2291C2C1DDF001821EB /* Assets.xcassets in Resources */,
-				5384F2271C2C1DDF001821EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CFDDC269EA9D0012A218C12 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE7E83E4FB5FAE68EA31DE5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMFriends/Pods-SMFriends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4B13058228C88FD976378A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMFriends/Pods-SMFriends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5384F2151C2C1DDF001821EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5384F2241C2C1DDF001821EB /* ViewController.m in Sources */,
+				5384F2491C2C424C001821EB /* SMUsersTableViewDataCell.m in Sources */,
 				5384F2211C2C1DDF001821EB /* AppDelegate.m in Sources */,
+				5384F23E1C2C35A0001821EB /* SMUsersTableViewDatasource.m in Sources */,
+				5384F2351C2C1E44001821EB /* SMUsersViewController.m in Sources */,
 				5384F21E1C2C1DDF001821EB /* main.m in Sources */,
+				5384F24D1C2C6166001821EB /* SMUsersTableViewActivityIndicatorCell.m in Sources */,
+				5384F23B1C2C224C001821EB /* SMUsersTableView.m in Sources */,
+				5384F2451C2C4149001821EB /* UIView+SMViews.m in Sources */,
+				5384F2421C2C3F43001821EB /* UIColor+SMColors.m in Sources */,
+				5384F2381C2C1EE0001821EB /* SMNavigationController.m in Sources */,
+				5384F2501C2C6482001821EB /* SMUsersTableViewTryAgainCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5384F2251C2C1DDF001821EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5384F2261C2C1DDF001821EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5384F22A1C2C1DDF001821EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,8 +407,10 @@
 		};
 		5384F2311C2C1DDF001821EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221BD42E9FD3B665A8A7F081 /* Pods-SMFriends.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = SMFriends/SMHeader.pch;
 				INFOPLIST_FILE = SMFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MarkinSA.SMFriends;
@@ -273,8 +420,10 @@
 		};
 		5384F2321C2C1DDF001821EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AEE2E106B33805FFA1314BA /* Pods-SMFriends.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = SMFriends/SMHeader.pch;
 				INFOPLIST_FILE = SMFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MarkinSA.SMFriends;
@@ -301,6 +450,7 @@
 				5384F2321C2C1DDF001821EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
